@@ -6,6 +6,6 @@ Icon=/usr/share/gtklife/graphics/logo.xpm
 Exec=gtklife
 Terminal=false
 Type=Application
-Categories=Game;Simulation;
+Categories=GTK;Game;Simulation;
 Encoding=UTF-8
 # vi: encoding=utf-8

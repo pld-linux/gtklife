@@ -1,14 +1,14 @@
 Summary:	Implementation of Conway's Life, a cellular automation
-Summary(pl):	Implementacja gry Conway-a Life, automat komórkowy
+Summary(pl):	Implementacja gry Conwaya Life - automat komórkowy
 Name:		gtklife
 Version:	4.1
 Release:	1
 Group:		X11/Applications/Games
 License:	GPL
-Url:		http://www.igs.net/~tril/gtklife/
 Source0:	http://www.igs.net/~tril/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	e5fc1290429aa58ff9ba1a6da502f142
 Source1:	%{name}.desktop
+URL:		http://www.igs.net/~tril/gtklife/
 BuildRequires:	glib-devel
 BuildRequires:	gtk+-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -25,9 +25,9 @@ formats.
 
 %description
 GtkLife jest implementacj± grupy Conwaya - Life, automatu
-komórkowego(opartego na gridach sztucznego ¿ycia), tworzonego przez
+komórkowego (opartego na komórkach sztucznego ¿ycia), tworzonego przez
 matematyka Johna Conwaya. Charakteryzuje siê wysoko zoptymalizowanym
-algorytmem obliczeñ generacji, wielkim universum(1 milion x 1 milion
+algorytmem obliczeñ generacji, wielkim universum (1 milion x 1 milion
 komórek), oraz nowoczesnym, przyjaznym dla u¿ytkowników interfejsem.
 Przyk³adowe wzory dostêpne s± z opcjonalnego paska w g³ównym oknie.
 U¿ytkownik mo¿e tak¿e rysowaæ w³asne wzory oraz wczytywaæ i zachowywaæ
@@ -59,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
+%doc README NEWS ChangeLog doc/*
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_desktopdir}/%{name}.desktop
-%doc README NEWS ChangeLog doc/*

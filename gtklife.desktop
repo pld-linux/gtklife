@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Gtk Life
+Comment=Implementation of Conway's Life, a cellular automation
+Comment[pl]= Implementacja gry Conway-a Life, automat komórkowy
+Icon=/usr/share/gtklife/graphics/logo.xpm
+Exec=gtklife
+Terminal=false
+Type=Application
+Categories=Game;Simulation;
+Encoding=UTF-8
+# vi: encoding=utf-8

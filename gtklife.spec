@@ -1,12 +1,12 @@
 Summary:	Implementation of Conway's Life, a cellular automation
 Summary(pl):	Implementacja gry Conwaya Life - automat komórkowy
 Name:		gtklife
-Version:	4.1
-Release:	2
+Version:	4.2
+Release:	1
 Group:		X11/Applications/Games
-License:	GPL
-Source0:	http://www.igs.net/~tril/%{name}/%{name}-%{version}.tar.gz
-# Source0-md5:	e5fc1290429aa58ff9ba1a6da502f142
+License:	GPL v2
+Source0:	http://ironphoenix.org/tril/gtklife/%{name}-%{version}.tar.gz
+# Source0-md5:	d0c0ad4d989e865a7eec6f941b0142d2
 Source1:	%{name}.desktop
 URL:		http://www.igs.net/~tril/gtklife/
 BuildRequires:	gtk+-devel
@@ -37,6 +37,7 @@ pliki w ró¿nych popularnych formatach Life.
 
 %build
 %{__make} \
+	CC="%{__cc}" \
 	CFLAGS="%{rpmcflags}" \
 	PREFIX=%{_prefix} \
 	BINDIR=%{_bindir} \
@@ -58,7 +59,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc README NEWS ChangeLog doc/*
+%doc README NEWS doc/*
 %attr(755,root,root) %{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_desktopdir}/%{name}.desktop

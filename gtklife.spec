@@ -22,7 +22,7 @@ an optional sidebar on the main window. The user can also draw their
 own patterns, and load and save files in a number of popular Life
 formats.
 
-%description
+%description -l pl
 GtkLife jest implementacj± grupy Conwaya - Life, automatu
 komórkowego (opartego na komórkach sztucznego ¿ycia), tworzonego przez
 matematyka Johna Conwaya. Charakteryzuje siê wysoko zoptymalizowanym

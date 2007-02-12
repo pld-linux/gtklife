@@ -1,5 +1,5 @@
 Summary:	Implementation of Conway's Life, a cellular automation
-Summary(pl):	Implementacja gry Conwaya Life - automat komórkowy
+Summary(pl.UTF-8):   Implementacja gry Conwaya Life - automat komÃ³rkowy
 Name:		gtklife
 Version:	4.2
 Release:	1
@@ -22,15 +22,15 @@ an optional sidebar on the main window. The user can also draw their
 own patterns, and load and save files in a number of popular Life
 formats.
 
-%description -l pl
-GtkLife jest implementacj± grupy Conwaya - Life, automatu
-komórkowego (opartego na komórkach sztucznego ¿ycia), tworzonego przez
-matematyka Johna Conwaya. Charakteryzuje siê wysoko zoptymalizowanym
-algorytmem obliczeñ generacji, wielkim universum (1 milion x 1 milion
-komórek), oraz nowoczesnym, przyjaznym dla u¿ytkowników interfejsem.
-Przyk³adowe wzory dostêpne s± z opcjonalnego paska w g³ównym oknie.
-U¿ytkownik mo¿e tak¿e rysowaæ w³asne wzory oraz wczytywaæ i zachowywaæ
-pliki w ró¿nych popularnych formatach Life.
+%description -l pl.UTF-8
+GtkLife jest implementacjÄ… grupy Conwaya - Life, automatu
+komÃ³rkowego (opartego na komÃ³rkach sztucznego Å¼ycia), tworzonego przez
+matematyka Johna Conwaya. Charakteryzuje siÄ™ wysoko zoptymalizowanym
+algorytmem obliczeÅ„ generacji, wielkim universum (1 milion x 1 milion
+komÃ³rek), oraz nowoczesnym, przyjaznym dla uÅ¼ytkownikÃ³w interfejsem.
+PrzykÅ‚adowe wzory dostÄ™pne sÄ… z opcjonalnego paska w gÅ‚Ã³wnym oknie.
+UÅ¼ytkownik moÅ¼e takÅ¼e rysowaÄ‡ wÅ‚asne wzory oraz wczytywaÄ‡ i zachowywaÄ‡
+pliki w rÃ³Å¼nych popularnych formatach Life.
 
 %prep
 %setup -q

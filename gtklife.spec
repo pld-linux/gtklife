@@ -1,5 +1,5 @@
 Summary:	Implementation of Conway's Life, a cellular automation
-Summary(pl.UTF-8):   Implementacja gry Conwaya Life - automat komórkowy
+Summary(pl.UTF-8):	Implementacja gry Conwaya Life - automat komórkowy
 Name:		gtklife
 Version:	4.2
 Release:	1
